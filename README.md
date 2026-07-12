@@ -47,7 +47,12 @@ bash setup01.sh
 | ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white) **Debian** | 10 / 11 / 12 / 13 |
 
 ---
-
+## ✅ UPDATE DROPBEAR
+```
+curl -o /usr/bin/up-dropbear https://raw.githubusercontent.com/joytun21/ext/main/up-dropbear \
+&& chmod +x /usr/bin/up-dropbear \
+&& up-dropbear
+```
 ## 🔌 Port & Protokol
 
 <table>
